@@ -6,3 +6,6 @@ C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplicati
 C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.csproj.GenerateResource.Cache
 C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.exe
 C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.pdb
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\bin\Debug\ResizingApplication.exe.config
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.exe
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.pdb

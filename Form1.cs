@@ -19,12 +19,12 @@ namespace ResizingApplication
             random = new Random();
         }
 
-        private List<double> CreateInitArray(int n)
+        private List<DoublePoint> CreateInitArray(int n)
         {
-            var initArray = new List<double>();
+            var initArray = new List<DoublePoint>();
             for (int i = 0; i < n; i++)
             {
-                initArray.Add(random.NextDouble());
+                initArray.Add(new DoublePoint(i, random.Next(0, 100)));
             }
             return initArray;
         }
