@@ -1,0 +1,8 @@
+C:\Users\Anna\Documents\Resizing\ResizingApplication\bin\Debug\ResizingApplication.exe.config
+C:\Users\Anna\Documents\Resizing\ResizingApplication\bin\Debug\ResizingApplication.exe
+C:\Users\Anna\Documents\Resizing\ResizingApplication\bin\Debug\ResizingApplication.pdb
+C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.csprojResolveAssemblyReference.cache
+C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.Properties.Resources.resources
+C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.csproj.GenerateResource.Cache
+C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.exe
+C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplication.pdb
