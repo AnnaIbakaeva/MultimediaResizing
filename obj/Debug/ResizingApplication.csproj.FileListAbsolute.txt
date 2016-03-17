@@ -9,3 +9,12 @@ C:\Users\Anna\Documents\Resizing\ResizingApplication\obj\Debug\ResizingApplicati
 C:\Users\Anna\Documents\Resizing\MultimediaResizing\bin\Debug\ResizingApplication.exe.config
 C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.exe
 C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.pdb
+E:\Study\Multimedia\MultimediaResizing\bin\Debug\ResizingApplication.exe.config
+E:\Study\Multimedia\MultimediaResizing\bin\Debug\ResizingApplication.exe
+E:\Study\Multimedia\MultimediaResizing\bin\Debug\ResizingApplication.pdb
+E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.csprojResolveAssemblyReference.cache
+E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.Form1.resources
+E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.Properties.Resources.resources
+E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.csproj.GenerateResource.Cache
+E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.exe
+E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.pdb

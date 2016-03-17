@@ -14,33 +14,45 @@ namespace ResizingApplication
             var newArray = new List<DoublePoint>();
             double segmentSize = (double)(initArray.Count)/newCount;
             double currentX = 0;
+            double[] arrayX = new double[newCount];
             for (int i = 0; i < newCount; i++)
             {
-                newArray.Add(new DoublePoint(currentX, 0));
+                arrayX[i] = currentX;
                 currentX += segmentSize;
             }
-            var 
-            foreach (var point in newArray)
+            for (int i=0; i < arrayX.Length; i++)
             {
-                int max = (int)Math.Ceiling(point.X);
-                int min = (int)Math.Floor(point.X);
-                CalculatePointY(initArray[min], initArray[max], point);
+                int max = (int)Math.Ceiling(arrayX[i]);
+                int min = (int)Math.Floor(arrayX[i]);
+                var y = CalculatePointY(initArray[min], initArray[max], arrayX[i]);
+                double sumSquare = 0;
+                for (int j = 0; j < min; j++)
+                {
+                    sumSquare += CalculateTrapeziumSquare(initArray[j], initArray[j+1]);
+                }
+                sumSquare += CalculateTrapeziumSquare(initArray[min], new DoublePoint(arrayX[i], y));
+                var width = arrayX[i];
+                if (i > 0)
+                    width = arrayX[i] - arrayX[i-1];
+                var averageY = sumSquare / width;
+                newArray.Add(new DoublePoint(arrayX[i], averageY));
             }
             return newArray;
         }
 
-        private static void CalculateSquare()
+        private static double CalculateTrapeziumSquare(DoublePoint p1, DoublePoint p2)
         {
+            var h = (p2.Y + p1.Y) / 2;
+            return h * (p2.X - p1.X);
         }
 
-        private static DoublePoint CalculatePointY(DoublePoint p1, DoublePoint p2, DoublePoint endPoint)
+        private static double CalculatePointY(DoublePoint p1, DoublePoint p2, double x)
         {
             double tmp = (p2.Y*p1.X) - (p1.Y*p2.X);
             double b = tmp/(p1.X - p2.X);
             double k = (p1.Y - b)/p1.X;
-            double y = (k * endPoint.X) + b;
-            endPoint.Y = y;
-            return endPoint;
+            double y = (k * x) + b;
+            return y;
         }
     }
 }
