@@ -24,7 +24,11 @@ namespace ResizingApplication
             {
                 int max = (int)Math.Ceiling(arrayX[i]);
                 int min = (int)Math.Floor(arrayX[i]);
-                var y = CalculatePointY(initArray[min], initArray[max], arrayX[i]);
+                double y = 0;
+                if (min != max)
+                    y = CalculatePointY(initArray[min], initArray[max], arrayX[i]);
+                else
+                    y = initArray[min].Y;
                 double sumSquare = 0;
                 for (int j = 0; j < min; j++)
                 {

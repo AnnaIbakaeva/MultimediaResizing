@@ -20,6 +20,7 @@ namespace ResizingApplication
             random = new Random();
             var initArray = CreateInitArray(8);
             var series = new Series("Init");
+            chart1.Series.Clear();
             chart1.Series.Add(series);
             foreach (var point in initArray)
             {
