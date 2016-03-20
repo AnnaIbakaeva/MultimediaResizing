@@ -20,7 +20,8 @@ namespace ResizingApplication
                 arrayX[i] = currentX;
                 currentX += segmentSize;
             }
-            for (int i=0; i < arrayX.Length; i++)
+            newArray.Add(new DoublePoint(arrayX[0], initArray[0].Y));
+            for (int i=1; i < arrayX.Length; i++)
             {
                 int max = (int)Math.Ceiling(arrayX[i]);
                 int min = (int)Math.Floor(arrayX[i]);
