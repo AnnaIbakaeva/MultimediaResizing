@@ -19,15 +19,15 @@ namespace ResizingApplication
             InitializeComponent();
             random = new Random();
             var initArray = CreateInitArray(8);
-            var series = new Series("Init");
+            var series = new Series("Init") { ChartType = SeriesChartType.Line };
             chart1.Series.Clear();
             chart1.Series.Add(series);
             foreach (var point in initArray)
             {
                 series.Points.Add(new DataPoint(point.X, point.Y));
             }
-            var endArray = SizeConverter.Convert(initArray, 5);
-            var series2 = new Series("End");
+            var endArray = SizeConverter.Convert(initArray, 12);
+            var series2 = new Series("End") {ChartType = SeriesChartType.Line};
             chart1.Series.Add(series2);
             foreach (var point in endArray)
             {

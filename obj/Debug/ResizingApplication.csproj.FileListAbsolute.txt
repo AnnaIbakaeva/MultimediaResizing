@@ -18,3 +18,9 @@ E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.Properties.
 E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.csproj.GenerateResource.Cache
 E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.exe
 E:\Study\Multimedia\MultimediaResizing\obj\Debug\ResizingApplication.pdb
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\bin\Debug\ResizingApplication.exe
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\bin\Debug\ResizingApplication.pdb
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.csprojResolveAssemblyReference.cache
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.Form1.resources
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.Properties.Resources.resources
+C:\Users\Anna\Documents\Resizing\MultimediaResizing\obj\Debug\ResizingApplication.csproj.GenerateResource.Cache
