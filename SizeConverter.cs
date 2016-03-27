@@ -33,19 +33,17 @@ namespace ResizingApplication
                 else
                     y = initArray[min].Y;
                 arrayY[i] = y;
-
-                int prevMax = (int)Math.Ceiling(arrayX[i - 1]);
+                
                 double sumSquare = 0;
-                sumSquare += CalculateTrapeziumSquare(new DoublePoint(arrayX[i - 1], arrayY[i - 1]), initArray[prevMax]);
-                for (int j = prevMax; j < min; j++)
+                for (int j = 0; j < min; j++)
                 {
                     sumSquare += CalculateTrapeziumSquare(initArray[j], initArray[j + 1]);
                 }
                 sumSquare += CalculateTrapeziumSquare(initArray[min], new DoublePoint(arrayX[i], y));
-                var width = arrayX[i] - arrayX[i - 1];
-                var averageY = sumSquare / width;
+                var averageY = sumSquare / arrayX[i];
                 newArray.Add(new DoublePoint(arrayX[i], averageY));
             }
+            newArray.Add(initArray.Last());
             return newArray;
         }
 
